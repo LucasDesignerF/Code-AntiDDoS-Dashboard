@@ -68,7 +68,11 @@ Retorna uma lista simulada de alertas relacionados a ataques DDoS.
 
 ```
 - app.py          # Código backend da aplicação Flask
-- templates/index.html      # Frontend (Dashboard) em HTML
+- index.html      # Frontend (Dashboard) em HTML
+- assets/
+  - CSS e imagens relacionadas
+- scripts/
+  - Scripts JS para o funcionamento do dashboard
 - requirements.txt # Dependências do projeto
 ```
 
@@ -87,12 +91,12 @@ Retorna uma lista simulada de alertas relacionados a ataques DDoS.
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/LucasDesignerF/Code-AntiDDoS-Dashboard.git
+   git clone https://github.com/seuusuario/anti-ddos-dashboard.git
    ```
 
 2. Navegue até o diretório do projeto:
    ```bash
-   cd code-antiddos-dashboard
+   cd anti-ddos-dashboard
    ```
 
 3. Instale as dependências do backend:
